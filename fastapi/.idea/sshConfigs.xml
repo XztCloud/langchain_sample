@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="116.62.63.62" id="b7920d27-02ce-4e76-a2ec-3bba07383df3" keyPath="C:\Users\XztCloud\.ssh\学习测试.pem" port="22" nameFormat="DESCRIPTIVE" username="root" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>

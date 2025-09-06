@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotWebChatHistory">
+    <option name="currentConversation">
+      <WebConversation>
+        <option name="session">
+          <ChatSession>
+            <option name="messages">
+              <list>
+                <UIChatMessage>
+                  <option name="command" value="explain" />
+                  <option name="content" value="" />
+                  <option name="cost" value="0" />
+                  <option name="createdAt" value="1754723327834" />
+                  <option name="localReferences">
+                    <list>
+                      <LocalReferences>
+                        <option name="isRequestStage" value="true" />
+                        <option name="range">
+                          <RefRange />
+                        </option>
+                        <option name="uri" value="{&quot;path&quot;:&quot;file:///D:/Code/python/fastapi/main.py&quot;}" />
+                      </LocalReferences>
+                      <LocalReferences>
+                        <option name="isRequestStage" value="true" />
+                        <option name="range">
+                          <RefRange />
+                        </option>
+                        <option name="uri" value="{&quot;path&quot;:&quot;file:///D:/Code/python/fastapi/main.py&quot;}" />
+                      </LocalReferences>
+                    </list>
+                  </option>
+                  <option name="parser">
+                    <SimpleMarkdownStreamParser>
+                      <option name="parserState">
+                        <ParserState />
+                      </option>
+                    </SimpleMarkdownStreamParser>
+                  </option>
+                  <option name="range">
+                    <CodeActionChatRequestRange>
+                      <option name="start">
+                        <CodeActionChatRequestRangePosition />
+                      </option>
+                      <option name="end">
+                        <CodeActionChatRequestRangePosition>
+                          <option name="character" value="10000" />
+                        </CodeActionChatRequestRangePosition>
+                      </option>
+                    </CodeActionChatRequestRange>
+                  </option>
+                  <option name="role" value="user" />
+                  <option name="selectedRanges">
+                    <list>
+                      <ChatSelectionInfo>
+                        <option name="type" value="start-conversation-add" />
+                        <option name="uri" value="file:///D:/Code/python/fastapi/main.py" />
+                        <option name="basename" value="main.py" />
+                        <option name="ext" value=".py" />
+                        <option name="languageId" value="python" />
+                        <option name="selectText" value="#定义带路径参数的接口&#10;@app.get(&quot;/items/{item_id}&quot;)&#10;def read_item(item_id: int, q: str=None):&#10;    &quot;&quot;&quot;&#10;    获取物品信息&#10;    :param item_id:物品信息ID&#10;    :param q: 可选查询参数（字符串类型）&#10;    :return:&#10;    &quot;&quot;&quot;&#10;    return {&quot;item_id&quot;: item_id, &quot;q&quot;:q}&#10;" />
+                      </ChatSelectionInfo>
+                    </list>
+                  </option>
+                  <option name="uri" value="file:///D:/Code/python/fastapi/main.py" />
+                  <option name="variables">
+                    <list />
+                  </option>
+                </UIChatMessage>
+              </list>
+            </option>
+            <option name="messagesV3">
+              <list />
+            </option>
+            <option name="sessionId" value="01988da4daa7700d85e94c634e30d073" />
+            <option name="source" value="codeAction" />
+          </ChatSession>
+        </option>
+        <option name="conversationId" value="01988da4daa7700d85e94c634e30d073" />
+        <option name="conversation">
+          <Conversation>
+            <option name="createTime" value="1754723046663" />
+            <option name="id" value="01988da4daa7700d85e94c634e30d073" />
+            <option name="title" value="/explain" />
+            <option name="updateTime" value="1754723046663" />
+          </Conversation>
+        </option>
+      </WebConversation>
+    </option>
+  </component>
+</project>
